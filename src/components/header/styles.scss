@@ -1,0 +1,53 @@
+.header{
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 24px;
+    border-bottom: 1px solid rgb(235, 233, 233);
+    align-items: center;
+
+    span{
+        font-weight: 500;
+    }
+
+    .filters{
+        button{
+            width: 197px;
+            height: 38px;
+            text-align: start;
+            background-color: #fff;
+            padding: 10px;
+            font-weight: 500;
+            font-size: 15px;
+            border:  1px solid rgb(235, 233, 233);
+        }
+        button:first-of-type {
+            border-radius: 20px 0 0 20px;
+        }
+    
+        button:last-of-type {
+            border-radius: 0 20px 20px 0;
+        }
+    }
+
+    .options{
+        font-size: 12px;
+        span{
+            margin-right: 15px;
+        }
+
+        button{
+            color: rgb(7, 29, 47);
+            height: 38px;
+            text-align: start;
+            background-color: #fff;
+            padding: 10px 16px;
+            font-weight: 500;
+            font-size: 15px;
+            border:  1px solid rgb(235, 233, 233);
+            border-radius: 10px;
+        }
+    }
+}

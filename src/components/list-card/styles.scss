@@ -1,0 +1,20 @@
+.list-card {
+    margin-left: 18px;
+    max-width: 45%;
+    height: 100vh;
+    overflow: auto;  
+
+    .showing{
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: left;
+        margin: 30px 18px 15px 18px;
+        font-weight: 600;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
